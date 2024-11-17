@@ -1,0 +1,28 @@
+---
+title: "Markdown Assignment for LIS4370"
+author: "Ahmed Azmy Elsayed"
+date: "2024-11-17"
+output: html_document
+---
+## Introduction
+This document explores the creation and application of a square function in R, showcasing my interest in algebra. The function demonstrates the concept of squaring numbers and its potential applications in various projects.
+
+## Square Function in R
+Below is the code for the square function. It takes a single numeric input and returns its square:
+
+```{r}
+square_function <- function(x) {
+  return(x^2)
+}
+
+# Testing the function
+square_function(4)  # Output: 16
+square_function(-3) # Output: 9
+```
+FAQ:
+
+Q: How does the function work?
+A: It adds two numbers and returns the result.
+
+Q: Why was this function chosen?
+A: It demonstrates basic functionality and can be expanded further.
